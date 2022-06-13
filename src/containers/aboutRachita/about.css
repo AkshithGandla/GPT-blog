@@ -1,0 +1,53 @@
+.about {
+  background-image: url("https://imgur.com/tQWcXgd");
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.about_content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 10rem;
+  margin-left: 12rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+
+.about__header {
+  display: flex;
+  flex-direction: row;
+}
+
+.about_content h2 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 78px;
+  /* identical to box height */
+
+  color: #4c4c4c;
+}
+
+.about_content p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  /* or 211% */
+
+  letter-spacing: 0.02em;
+
+  color: #4c4c4c;
+}
+
+.about__image {
+  margin-top: 7rem;
+  margin-left: 5rem;
+}

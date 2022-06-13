@@ -19,19 +19,19 @@ export const SidebarData = [
   {
     title: "Blogs by Rachita",
     path: "./blogs",
-    icon: <FaIcons.FaCartPlus />,
+    icon: <FaIcons.FaBlogger />,
     cName: "nav-text",
   },
   {
     title: "In the News",
     path: "./news",
-    icon: <IoIcons.IoMdPeople />,
+    icon: <FaIcons.FaNewspaper />,
     cName: "nav-text",
   },
   {
     title: "All Vlogs",
     path: "./vlogs",
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <FaIcons.FaFileVideo />,
     cName: "nav-text",
   },
   {

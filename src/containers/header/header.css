@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@500&display=swap");
 
 .header {
-  background-image: url("https://i.pinimg.com/originals/22/56/b2/2256b240528fe695ef7915ef96498152.jpg");
+  /*   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYV8-n-EK6_OmWfhtqYZveXLJVM_4-i14rRB-8v8W1ZndeOrDnEXApRxWWF5iXE2XpoPE&usqp=CAU"); */
+  background: rgb(132, 124, 164);
+  background: linear-gradient(
+    90deg,
+    rgba(132, 124, 164, 1) 0%,
+    rgba(116, 148, 164, 1) 35%,
+    rgba(116, 148, 164, 1) 100%
+  );
 }
 
 .headerPart {
@@ -18,6 +25,8 @@
 
   margin-right: 5rem;
   margin-left: 20rem;
+  margin-bottom: 10rem;
+  margin-top: 10rem;
 }
 .headerPart__content h1 {
   font-style: normal;
@@ -58,6 +67,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: drop-shadow(4px 4px 20px rgba(5, 32, 15, 0.25));
+}
+
+.headerpart__img img {
+  position: absolute;
+  top: 0px;
 }
 
 .shared-class {

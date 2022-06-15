@@ -47,7 +47,36 @@
   margin-top: 7rem;
   margin-left: 5rem;
 }
-
+.quote {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.quote p {
+  position: absolute;
+  top: 20%;
+  font-family: "Cormorant Upright";
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #4c4c4c;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+.quote__image_1 {
+  position: absolute;
+  left: 16vw;
+  top: -1vh;
+  height: 3rem;
+}
+.quote__image_2 {
+  position: absolute;
+  left: 18vw;
+  top: -1vh;
+  height: 3rem;
+}
 @media screen and (max-width: 1650px) {
   .about_content {
     margin: 8em 4rem 8rem 7rem;
@@ -64,5 +93,11 @@
   }
   .about_content p {
     line-height: 36px;
+  }
+  .quote__image_1 {
+    left: 10vw;
+  }
+  .quote__image_2 {
+    left: 8vw;
   }
 }

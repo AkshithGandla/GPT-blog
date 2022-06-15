@@ -11,11 +11,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
-  margin-right: 10rem;
-  margin-left: 12rem;
-  margin-bottom: 10rem;
-  margin-top: 10rem;
+  margin: 10rem 10rem 10rem 12rem;
 }
 
 .about__header {
@@ -50,4 +46,23 @@
 .about__image {
   margin-top: 7rem;
   margin-left: 5rem;
+}
+
+@media screen and (max-width: 1650px) {
+  .about_content {
+    margin: 8em 4rem 8rem 7rem;
+  }
+
+  .about__image {
+    margin-top: 7rem;
+    margin-left: 4rem;
+  }
+
+  .about__image img {
+    width: 550px;
+    height: 360px;
+  }
+  .about_content p {
+    line-height: 36px;
+  }
 }

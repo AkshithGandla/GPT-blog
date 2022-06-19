@@ -38,6 +38,47 @@ const About = () => {
           woman and one human being at a time.
         </p>
       </div>
+      <div className="reviews">
+        <div className="rectangle_2">
+          <div className="rectangle_2_profile_cirlce"></div>
+          <div className="rectangle_2__content">
+            <h3>Olatowun Candide-Johnson</h3>
+            <h4>Founder CEO, GAIA Africa</h4>
+            <p>
+              Girl Power Talk is one of the few that stand out because of its
+              passion for educating young ladies and especially at the grass
+              roots level and therefore changing those lives for the better. The
+              organization is committed to inspiring.
+            </p>
+          </div>
+        </div>
+        <div className="rectangle_1">
+          <div className="rectangle_1_profile_cirlce"></div>
+          <div className="rectangle_1__content">
+            <h3>Olatowun Candide-Johnson</h3>
+            <h4>Founder CEO, GAIA Africa</h4>
+            <p>
+              Girl Power Talk is one of the few that stand out because of its
+              passion for educating young ladies and especially at the grass
+              roots level and therefore changing those lives for the better. The
+              organization is committed to inspiring.
+            </p>
+          </div>
+        </div>
+        <div className="rectangle_2">
+          <div className="rectangle_2_profile_cirlce"></div>
+          <div className="rectangle_2__content">
+            <h3>Olatowun Candide-Johnson</h3>
+            <h4>Founder CEO, GAIA Africa</h4>
+            <p>
+              Girl Power Talk is one of the few that stand out because of its
+              passion for educating young ladies and especially at the grass
+              roots level and therefore changing those lives for the better. The
+              organization is committed to inspiring.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

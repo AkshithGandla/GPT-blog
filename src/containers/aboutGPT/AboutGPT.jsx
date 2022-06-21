@@ -2,13 +2,15 @@ import React from "react";
 import "./aboutGPT.css";
 import aboutGPTGradient from "../../images/aboutGPTGradient.png";
 import aboutGPTImg from "../../images/aboutGPTImg.png";
+import aboutGPTBg from "../../images/aboutGPTBg.png";
 
 const AboutGPT = () => {
   return (
     <div className="aboutGPT">
       <div className="aboutGPT__images">
-        <img className="aboutGPTImg" src={aboutGPTImg} alt="" />
-        <img className="aboutGPTGradient" src={aboutGPTGradient} alt="" />
+        {/*         <img className="aboutGPTImg" src={aboutGPTImg} alt="" />
+        <img className="aboutGPTGradient" src={aboutGPTGradient} alt="" /> */}
+        <img className="aboutGPTBg" src={aboutGPTBg} alt="" />
       </div>
       <div className="aboutGPT__content">
         <h2>About Girl Power Talk</h2>

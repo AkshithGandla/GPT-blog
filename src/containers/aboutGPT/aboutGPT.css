@@ -1,0 +1,62 @@
+.aboutGPT {
+  position: relative;
+  border: none;
+  padding: none;
+  margin: none;
+  height: 700px;
+}
+.aboutGPT__images {
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutGPTImg {
+  position: absolute;
+  z-index: -1;
+  width: 50vw;
+  height: 700px;
+}
+.aboutGPTGradient {
+  width: 100vw;
+  height: 700px;
+  object-fit: cover;
+  z-index: 0;
+  direction: rtl;
+}
+.aboutGPT__content h2 {
+  position: absolute;
+  top: 2rem;
+  right: 0;
+  left: 56vw;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 78px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.aboutGPT__content p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 50%;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 38px;
+  /* or 211% */
+
+  letter-spacing: 0.02em;
+  padding: 8rem;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1650px) {
+  .aboutGPT__content p {
+    padding: 7rem;
+  }
+}

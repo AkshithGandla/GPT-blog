@@ -6,6 +6,7 @@ import Header from "./containers/header/Header";
 import About from "./containers/aboutRachita/About";
 import AboutGPT from "./containers/aboutGPT/AboutGPT";
 import Collab from "./containers/collab/Collab";
+import FeaturedArticles from "./containers/FeaturedArticles/FeaturedArticles";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <About></About>
         <AboutGPT></AboutGPT>
         <Collab></Collab>
+        <FeaturedArticles></FeaturedArticles>
       </div>
     </BrowserRouter>
   );

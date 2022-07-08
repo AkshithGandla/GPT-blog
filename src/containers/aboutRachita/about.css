@@ -1,6 +1,9 @@
+.aboutContainer {
+  background-image: url("https://i.imgur.com/tQWcXgd.png");
+}
+
 .about {
-  background-image: url("https://imgur.com/tQWcXgd");
-  margin-top: 3rem;
+  padding-top: 3rem;
   margin-left: 2rem;
   margin-right: 2rem;
 }

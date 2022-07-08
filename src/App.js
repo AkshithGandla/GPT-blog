@@ -7,6 +7,8 @@ import About from "./containers/aboutRachita/About";
 import AboutGPT from "./containers/aboutGPT/AboutGPT";
 import Collab from "./containers/collab/Collab";
 import FeaturedArticles from "./containers/FeaturedArticles/FeaturedArticles";
+import PhotosSlick from "./components/PhotosSlick/PhotosSlick";
+import Note from "./components/Note/Note";
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
         <AboutGPT></AboutGPT>
         <Collab></Collab>
         <FeaturedArticles></FeaturedArticles>
+        <div className="photosNote">
+          <PhotosSlick></PhotosSlick>
+          <Note></Note>
+        </div>
       </div>
     </BrowserRouter>
   );

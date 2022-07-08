@@ -1,0 +1,37 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.pressContainer {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.pressContainer h2 {
+  padding-bottom: 3rem;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 78px;
+
+  color: #4c4c4c;
+}
+
+.pressSlick {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.pressSlick img {
+  /*   background: linear-gradient(180deg, #8474a1 0%, #749ca1 100%);
+  mix-blend-mode: overlay;
+  border-radius: 192px; */
+}
+.slick-slide > div {
+  margin: 10px auto;
+  width: 300px;
+}
+
+.slick-list {
+  margin: auto;
+}

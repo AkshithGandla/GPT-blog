@@ -1,12 +1,13 @@
 import React from "react";
 import "./about.css";
+import PressSlider from "../../components/pressSlider/PressSlider";
 import aboutRachitaImage from "../../images/aboutRachitaImg.png";
 import quoteContainer from "../../images/quoteContainer.png";
 import quote from "../../images/quote.png";
 
 const About = () => {
   return (
-    <div>
+    <div className="aboutContainer">
       <div className="about">
         <div className="about__header">
           <div className="about__image">
@@ -38,6 +39,7 @@ const About = () => {
           woman and one human being at a time.
         </p>
       </div>
+      <PressSlider></PressSlider>
       <div className="reviews">
         <div className="rectangle_2">
           <div className="rectangle_2_profile_cirlce"></div>

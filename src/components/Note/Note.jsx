@@ -7,7 +7,7 @@ import "./note.css";
 
 const Note = () => {
   return (
-    <div className="noteContainer">
+    <div className="noteContainer" id="contactUS">
       <img src={msgNote} alt="" />
       <div className="noteInternals">
         <img src={notePhoto} alt="" />

@@ -6,7 +6,7 @@ import aboutGPTBg from "../../images/aboutGPTBg.png";
 
 const AboutGPT = () => {
   return (
-    <div className="aboutGPT">
+    <div className="aboutGPT" id="aboutGPT">
       <div className="aboutGPT__images">
         {/*         <img className="aboutGPTImg" src={aboutGPTImg} alt="" />
         <img className="aboutGPTGradient" src={aboutGPTGradient} alt="" /> */}

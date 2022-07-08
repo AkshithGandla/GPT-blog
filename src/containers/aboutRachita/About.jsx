@@ -7,7 +7,7 @@ import quote from "../../images/quote.png";
 
 const About = () => {
   return (
-    <div className="aboutContainer">
+    <div className="aboutContainer" id="aboutRachita">
       <div className="about">
         <div className="about__header">
           <div className="about__image">

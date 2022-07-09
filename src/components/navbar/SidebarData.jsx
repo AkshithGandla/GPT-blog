@@ -18,7 +18,7 @@ export const SidebarData = [
   },
   {
     title: "Blogs by Rachita",
-    path: "#blogs",
+    path: "#blog",
     icon: <FaIcons.FaBlogger />,
     cName: "nav-text",
   },

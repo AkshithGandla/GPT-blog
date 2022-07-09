@@ -9,6 +9,7 @@ import Collab from "./containers/collab/Collab";
 import FeaturedArticles from "./containers/FeaturedArticles/FeaturedArticles";
 import PhotosSlick from "./components/PhotosSlick/PhotosSlick";
 import Note from "./components/Note/Note";
+import Blog from "./containers/Blog/Blog";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Header></Header>
         <About></About>
         <AboutGPT></AboutGPT>
+        <Blog></Blog>
         <Collab></Collab>
         <FeaturedArticles></FeaturedArticles>
         <div className="photosNote">

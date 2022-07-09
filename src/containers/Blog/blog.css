@@ -1,0 +1,25 @@
+.BlogsSectionContainer {
+  background-image: url("https://i.imgur.com/tQWcXgd.png");
+}
+
+.blogs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 4rem;
+  margin-bottom: 0rem;
+  padding-bottom: 4rem;
+}
+
+.BlogsTitle {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 78px;
+  /* identical to box height */
+  margin-left: 10rem;
+  padding-top: 4rem;
+  color: #4c4c4c;
+}

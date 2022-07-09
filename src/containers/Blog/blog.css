@@ -23,3 +23,10 @@
   padding-top: 4rem;
   color: #4c4c4c;
 }
+
+@media screen and (max-width: 1600px) {
+  .blogs {
+    margin: 2rem;
+    margin-bottom: 0rem;
+  }
+}

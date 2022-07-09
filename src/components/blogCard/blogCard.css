@@ -70,3 +70,14 @@
   letter-spacing: 0.02em;
   color: #8474a1;
 }
+
+@media screen and (max-width: 1600px) {
+  .blogCardContainer {
+    max-width: 420px;
+  }
+
+  .blogCardImage img {
+    width: 400px;
+    height: 220px;
+  }
+}

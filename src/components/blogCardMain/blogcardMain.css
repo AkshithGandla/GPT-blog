@@ -75,3 +75,10 @@
   letter-spacing: 0.02em;
   color: #8474a1;
 }
+
+@media screen and (max-width: 1550px) {
+  .blogCardMainImage img {
+    width: 720px;
+    height: 400px;
+  }
+}

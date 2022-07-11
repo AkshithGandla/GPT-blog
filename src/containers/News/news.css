@@ -1,9 +1,149 @@
+.newsDivheading {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 78px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #4c4c4c;
+}
+
 .newsDiv {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+  padding: 4rem;
+  padding-top: 1rem;
 }
 .subNewsDiv {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  height: 720px;
+}
+
+.newsMain {
+  position: relative;
+}
+.newsMainContent {
+  position: absolute;
+  bottom: 4rem;
+  padding: 2rem 4rem;
+}
+
+.subnews_1 {
+  position: relative;
+}
+
+.subnews_1__content {
+  position: absolute;
+  bottom: 0rem;
+  padding: 2rem;
+}
+
+.newsMainImg img {
+  width: 62.5rem;
+  height: 45rem;
+}
+
+.subnews_1__img img {
+  width: 37.5rem;
+  height: 20rem;
+}
+
+.newsMainContent h2 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  padding-bottom: 1rem;
+  color: #ffffff;
+}
+
+.newsMainContent p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.375rem;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+.subnews_1__content h2 {
+  font-family: "Cormorant Upright";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+
+  color: #ffffff;
+  padding-bottom: 0.5rem;
+}
+
+.subnews_1__content p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2.375rem;
+  /* or 211% */
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1650px) {
+  .newsMainImg img {
+    width: 54rem;
+    height: 40rem;
+  }
+
+  .subnews_1__img img {
+    width: 34rem;
+    height: 18rem;
+  }
+
+  .subNewsDiv {
+    height: 40rem;
+  }
+
+  .newsDiv {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .newsMainImg img {
+    width: 50rem;
+    height: 36rem;
+  }
+
+  .subnews_1__img img {
+    width: 32rem;
+    height: 16rem;
+  }
+
+  .subNewsDiv {
+    height: 36rem;
+  }
+
+  .newsDiv {
+    padding: 2rem;
+  }
+
+  .newsDivheading {
+    padding: 1rem;
+    font-size: 3rem;
+  }
 }

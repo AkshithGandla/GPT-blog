@@ -10,6 +10,7 @@ import FeaturedArticles from "./containers/FeaturedArticles/FeaturedArticles";
 import PhotosSlick from "./components/PhotosSlick/PhotosSlick";
 import Note from "./components/Note/Note";
 import Blog from "./containers/Blog/Blog";
+import News from "./containers/News/News";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <AboutGPT></AboutGPT>
         <Blog></Blog>
         <Collab></Collab>
+        <News></News>
         <FeaturedArticles></FeaturedArticles>
         <div className="photosNote">
           <PhotosSlick></PhotosSlick>

@@ -1,12 +1,15 @@
 import React from "react";
 import "./news.css";
 import newsData from "./NewsData.json";
-import news1 from "../../images/news1.png";
+/* import news1 from "../../images/news1.png";
 import news2 from "../../images/news2.png";
-import news3 from "../../images/news3.png";
+import news3 from "../../images/news3.png"; */
 const News = () => {
   return (
-    <div>
+    <div id="news">
+      <div className="newsDivheading">
+        <h2>In The News</h2>
+      </div>
       <div className="newsDiv">
         <div className="newsMain">
           <div className="newsMainImg">
